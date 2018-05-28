@@ -1,0 +1,26 @@
+﻿android.permission.READ_CALENDAR,Allows an application to read the calendar data of a user.
+android.permission.WRITE_CALENDAR,Allows an application to write the calendar data of a user.
+android.permission.CAMERA,Required to be able to access the camera device. This will automatically enforce the manifest element for all camera features. If you do not require all camera features or can properly operate if a camera is not available then you must modify your manifest as appropriate in order to install on devices that do not support all camera features.
+android.permission.READ_CONTACTS,Allows an application to read the contacts data of the user.
+android.permission.WRITE_CONTACTS,Allows an application to write the contacts data of the user.
+android.permission.GET_ACCOUNTS,Allows access to the list of accounts in the Accounts Service.  Beginning with Android 6.0 if an app shares the signature of the authenticator that manages an account it does not need GET_ACCOUNTS permission to read information about that account. On Android 5.1 and lower, all apps need GET_ACCOUNTS permission to read information about any account.
+android.permission.ACCESS_FINE_LOCATION,Allows an app to access precise location. 
+android.permission.ACCESS_COARSE_LOCATION,Allows an app to access approximate location.
+android.permission.RECORD_AUDIO,Allows an application to record audio.
+android.permission.READ_PHONE_STATE,Allows read only access to phone state including the phone number of the device, current cellular network information, the status of any ongoing calls, and a list of any PhoneAccounts registered on the device.
+android.permission.READ_PHONE_NUMBERS,Allows read access to the device's phone numbers. This is a subset of the capabilities granted by READ_PHONE_STATE but is exposed to instant applications.
+android.permission.CALL_PHONE,Allows an application to initiate a phone call without going through the Dialer user interface for the user to confirm the call.
+android.permission.ANSWER_PHONE_CALLS,Allows the app to answer an incoming phone call.
+android.permission.READ_CALL_LOG,Allows an application to read the call log of the user.
+android.permission.WRITE_CALL_LOG,Allows an application to write but not read the call log data of the user.
+com.android.voicemail.permission.ADD_VOICEMAIL,Allows an application to add voicemails into the system.
+android.permission.USE_SIP,Allows an application to use SIP service.
+android.permission.PROCESS_OUTGOING_CALLS,Allows an application to see the number being dialed during an outgoing call with the option to redirect the call to a different number or abort the call altogether.
+android.permission.ANSWER_PHONE_CALLS,Allows the app to answer an incoming phone call.
+android.permission.BODY_SENSORS,Allows an application to access data from sensors that the user uses to measure what is happening inside his/her body such as heart rate.
+android.permission.SEND_SMS,Allows an application to send SMS messages.
+android.permission.RECEIVE_SMS,Allows an application to receive SMS messages.
+android.permission.READ_SMS,Allows an application to read SMS messages.
+android.permission.RECEIVE_WAP_PUSH,Allows an application to receive WAP push messages.
+android.permission.RECEIVE_MMS,Allows an application to monitor incoming MMS messages.
+android.permission.READ_EXTERNAL_STORAGE,Allows an application to read from external storage. Any app that declares the WRITE_EXTERNAL_STORAGE permission is implicitly granted this permission. This permission is enforced starting in API level 19. Before API level 19 this permission is not enforced and all apps still have access to read from external storage. You can test your app with the permission enforced by enabling Protect USB storage under Developer options in the Settings app on a device running Android 4.1 or higher.

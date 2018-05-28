@@ -1,0 +1,65 @@
+﻿android.permission.ACCESS_LOCATION_EXTRA_COMMANDS,Allows an application to access extra location provider commands.
+android.permission.ACCESS_NETWORK_STATE,Allows applications to access information about networks.
+android.permission.ACCESS_NOTIFICATION_POLICY,Marker permission for applications that wish to access notification policy.
+android.permission.ACCESS_WIFI_STATE,Allows applications to access information about Wi-Fi networks.
+android.permission.BLUETOOTH,Allows applications to connect to paired bluetooth devices.
+android.permission.BLUETOOTH_ADMIN,Allows applications to discover and pair bluetooth devices.
+android.permission.BROADCAST_STICKY,Allows an application to broadcast sticky intents. These are broadcasts whose data is held by the system after being finished, so that clients can quickly retrieve that data without having to wait for the next broadcast.
+android.permission.CHANGE_NETWORK_STATE,Allows applications to change network connectivity state.
+android.permission.CHANGE_WIFI_MULTICAST_STATE,Allows applications to enter WiFi Multicast mode.
+android.permission.CHANGE_WIFI_STATE,Allows applications to change WiFi connectivity state
+android.permission.DISABLE_KEYGUARD,Allows applications to disable the keyguard if it is not secure.
+android.permission.EXPAND_STATUS_BAR,Allows an application to expand or collapse the status bar.
+android.permission.GET_PACKAGE_SIZE,Allows an application to find out the space used by any package.
+com.android.launcher.permission.INSTALL_SHORTCUT,Allows an application to install a shortcut in Launcher.
+android.permission.INTERNET,Allows applications to open network sockets.
+android.permission.KILL_BACKGROUND_PROCESSES,Allows an application to call killBackgroundProcesses.
+android.permission.MANAGE_OWN_CALLS,Allows a calling application which manages it own calls through the self managed ConnectionService APIs.
+android.permission.MODIFY_AUDIO_SETTINGS,Allows an application to modify global audio settings.
+android.permission.NFC,Allows applications to perform Input Output operations over NFC.
+android.permission.READ_SYNC_SETTINGS,Allows applications to read the sync settings.
+android.permission.READ_SYNC_STATS,Allows applications to read the sync stats.
+android.permission.RECEIVE_BOOT_COMPLETED,Allows an application to receive the ACTION_BOOT_COMPLETED that is broadcast after the system finishes booting. If you do not request this permission you will not receive the broadcast at that time. Though holding this permission does not have any security implications, it can have a negative impact on the user experience by increasing the amount of time it takes the system to start and allowing applications to have themselves running without the user being aware of them. As such you must explicitly declare your use of this facility to make that visible to the user.
+android.permission.REORDER_TASKS,Allows an application to change the Z order of tasks.
+android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND,Allows a companion app to run in the background.
+android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND,Allows a companion app to use data in the background.
+android.permission.REQUEST_DELETE_PACKAGES,Allows an application to request deleting packages. Apps targeting APIs P or greater must hold this permission in order to use ACTION_UNINSTALL_PACKAGE or uninstall.
+android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,Permission an application must hold in order to use ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS. This is a normal permission. An app requesting it will always be granted the permission, without the user needing to approve or see it.
+android.permission.REQUEST_INSTALL_PACKAGES,Allows an application to request installing packages. Apps targeting APIs greater than 25 must hold this permission in order to use ACTION_INSTALL_PACKAGE.
+com.android.alarm.permission.SET_ALARM,Allows an application to broadcast an Intent to set an alarm for the user.
+android.permission.SET_WALLPAPER,Allows applications to set the wallpaper.
+android.permission.SET_WALLPAPER_HINTS,Allows applications to set the wallpaper hints.
+android.permission.TRANSMIT_IR,Allows using the IR transmitter of the device if available.
+android.permission.USE_FINGERPRINT,Allows an app to use fingerprint hardware.
+android.permission.VIBRATE,Allows access to the vibrator.
+android.permission.WAKE_LOCK,Allows using PowerManager WakeLocks to keep processor from sleeping or screen from dimming.
+android.permission.WRITE_SYNC_SETTINGS,Allows applications to write the sync settings.
+android.permission.BIND_ACCESSIBILITY_SERVICE,Must be required by an AccessibilityService to ensure that only the system can bind to it.
+android.permission.BIND_AUTOFILL_SERVICE,Must be required by a AutofillService to ensure that only the system can bind to it.
+android.permission.BIND_CARRIER_SERVICES,The system process that is allowed to bind to services in carrier apps will have this permission. Carrier apps should use this permission to protect their services that only the system is allowed to bind to.
+android.permission.BIND_CHOOSER_TARGET_SERVICE,Must be required by a ChooserTargetService to ensure that only the system can bind to it.
+android.permission.BIND_CONDITION_PROVIDER_SERVICE,Must be required by a ConditionProviderService to ensure that only the system can bind to it.
+android.permission.BIND_DEVICE_ADMIN,Must be required by device administration receiver to ensure that only the system can interact with it.
+android.permission.BIND_DREAM_SERVICE,Must be required by an DreamService to ensure that only the system can bind to it.
+android.permission.BIND_INCALL_SERVICE,Must be required by a InCallService to ensure that only the system can bind to it.
+android.permission.BIND_INPUT_METHOD,Must be required by an InputMethodService to ensure that only the system can bind to it.
+android.permission.BIND_MIDI_DEVICE_SERVICE,Must be required by an MidiDeviceService to ensure that only the system can bind to it.
+android.permission.BIND_NFC_SERVICE,Must be required by a HostApduService or OffHostApduService to ensure that only the system can bind to it.
+android.permission.BIND_NOTIFICATION_LISTENER_SERVICE,Must be required by an NotificationListenerService to ensure that only the system can bind to it.
+android.permission.BIND_PRINT_SERVICE,Must be required by a PrintService to ensure that only the system can bind to it.
+android.permission.BIND_SCREENING_SERVICE,Must be required by a CallScreeningService to ensure that only the system can bind to it.
+android.permission.BIND_TELECOM_CONNECTION_SERVICE,Must be required by a ConnectionService to ensure that only the system can bind to it.
+android.permission.BIND_TEXT_SERVICE,Must be required by a TextService to ensure that only the system can bind to it.
+android.permission.BIND_TV_INPUT,Must be required by a TvInputService to ensure that only the system can bind to it.
+android.permission.BIND_VISUAL_VOICEMAIL_SERVICE,Must be required by a link VisualVoicemailService to ensure that only the system can bind to it.
+android.permission.BIND_VOICE_INTERACTION,Must be required by a VoiceInteractionService to ensure that only the system can bind to it.
+android.permission.BIND_VPN_SERVICE,Must be required by a VpnService to ensure that only the system can bind to it.
+android.permission.BIND_VR_LISTENER_SERVICE,Must be required by an VrListenerService to ensure that only the system can bind to it.
+android.permission.BIND_WALLPAPER,Must be required by a WallpaperService to ensure that only the system can bind to it.
+android.permission.CLEAR_APP_CACHE,Allows an application to clear the caches of all installed applications on the device.
+android.permission.MANAGE_DOCUMENTS,Allows an application to manage access to documents usually as part of a document picker. This permission should only be requested by the platform document management app. This permission cannot be granted to third party apps.
+com.android.voicemail.permission.READ_VOICEMAIL,Allows an application to read voicemails in the system.
+android.permission.REQUEST_INSTALL_PACKAGES,Allows an application to request installing packages. Apps targeting APIs greater than 25 must hold this permission in order to use ACTION_INSTALL_PACKAGE.
+android.permission.SYSTEM_ALERT_WINDOW,Allows an app to create windows using the type TYPE_APPLICATION_OVERLAY, shown on top of all other apps. Very few apps should use this permission. These windows are intended for system level interaction with the user.
+android.permission.WRITE_SETTINGS,Allows an application to read or write the system settings. If the app targets API level 23 or higher the app user must explicitly grant this permission to the app through a permission management screen. The app requests the approval of the user by sending an intent with action ACTION_MANAGE_WRITE_SETTINGS. The app can check whether it has this authorization by calling Settings.System.canWrite().
+com.android.voicemail.permission.WRITE_VOICEMAIL,Allows an application to modify and remove existing voicemails in the system.
