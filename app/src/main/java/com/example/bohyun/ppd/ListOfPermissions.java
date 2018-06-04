@@ -54,10 +54,14 @@ public class ListOfPermissions extends AppCompatActivity {
                         count = 0;
                     }
                 }
+
                 ar.add(temp + "\n");
 
                 try {
                     PackageInfo packageInfo = pm.getPackageInfo(applicationInfo.packageName, PackageManager.GET_PERMISSIONS);
+                    if(applicationInfo.uid < 2000){
+                        continue;
+                    }
                     appNameAndPermissions.append(counter++ + "\n");
 
                     //Get Permissions
