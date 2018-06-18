@@ -26,9 +26,9 @@ public class UID extends AppCompatActivity {
         List<ApplicationInfo> packages = pm.getInstalledApplications(PackageManager.GET_META_DATA);
 
         for (ApplicationInfo applicationInfo : packages) {
-            if(applicationInfo.uid <2000){
-                continue;
-            }
+//            if(applicationInfo.uid <2000){
+//                continue;
+//            }
             ar.add(applicationInfo.uid + ": " + applicationInfo.packageName +"\n");
         }
         Collections.sort(ar);
