@@ -30,11 +30,11 @@
             android:layout_height="wrap_content"
             android:text="Permission Check"/>
 
-        <Button
-            android:id="@+id/btn_policy"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Policy Check"/>
+        <!--<Button-->
+            <!--android:id="@+id/btn_policy"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Policy Check"/>-->
 
 
 

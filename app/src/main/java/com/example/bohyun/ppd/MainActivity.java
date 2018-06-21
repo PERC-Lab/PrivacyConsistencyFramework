@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        policyBtn = findViewById(R.id.btn_policy);
-        policyBtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                //Once the button "permission check" is clicked, screen changes to PermissionMenu
-                startActivity(new Intent(MainActivity.this, PolicyCheck.class));
-            }
-        });
+//        policyBtn = findViewById(R.id.btn_policy);
+//        policyBtn.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                //Once the button "permission check" is clicked, screen changes to PermissionMenu
+//                startActivity(new Intent(MainActivity.this, PolicyCheck.class));
+//            }
+//        });
 
     }
 

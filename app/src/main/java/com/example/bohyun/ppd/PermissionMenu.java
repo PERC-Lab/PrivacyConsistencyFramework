@@ -19,6 +19,7 @@ public class PermissionMenu extends AppCompatActivity {
     Button permissionBtn;
     Button detailBtn;
     Button uidBtn;
+    Button analysisBtn;
 
     public void onCreate(Bundle savedInstanceState) {
            super.onCreate(savedInstanceState);
@@ -46,6 +47,14 @@ public class PermissionMenu extends AppCompatActivity {
             public void onClick(View v) {
                 //Once the button "UIP" is clicked, screen changes to UID
                 startActivity(new Intent(PermissionMenu.this, UID.class));
+            }
+        });
+
+        analysisBtn = findViewById(R.id.analysis_btn);
+        analysisBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                //Once the button "Analysis" is clicked, screen changes to Analysis
+                startActivity(new Intent(PermissionMenu.this, ListOfAnalysis.class));
             }
         });
     }

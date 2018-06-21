@@ -28,6 +28,8 @@
         <activity android:name=".ListOfDetails"></activity>
         <activity android:name=".Details"></activity>
         <activity android:name=".PolicyCheck"></activity>
+        <activity android:name=".Analysis"></activity>
+        <activity android:name=".ListOfAnalysis"></activity>
 
     </application>
 
